@@ -1,0 +1,64 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Griffy', 'Helvetica', sans-serif;
+  font-size: 4rem;
+}
+
+.eastern {
+  font-size: 2.4rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main {
+  height: 960px;
+}
+
+.mainTop {
+  height: 480px;
+  font-weight: 700;
+}
+
+.mainBottom {
+  height: 200px;
+}
+
+main,
+.mainTop,
+.mainBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.mainTop,
+.mainBottom {
+  font-size: 3.2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+main {
+  background-image: url('assets/sunrisesunset.png');
+  background-size: cover;
+}
+
