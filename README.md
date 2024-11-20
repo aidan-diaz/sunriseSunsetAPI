@@ -1,22 +1,17 @@
-# 📊 Project: Complex API 
+# Sunrise Sunset API
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![Thumbnail](css/assets/thumbnail.png)
 
-### How to submit your code for review:
+Link to project: (https://sunrisesunsetcycle.netlify.app/)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JS
+
+An application that utilizes chained fetch requests to show today's sunrise and sunset times for the zipcode that the user types in. 
+
+Grabs the latitude and longitude of the user typed zipcode from thehttps://api.zippopotam.us/ API, and plugs that information into the https://api.sunrise-sunset.org API to pull the current day's sunrise and sunset time for the specified location in Eastern Time. 
+
+## Lessons Learned
+
+This application taught me the value of simplicity - a small amount of code can still produce a purposeful application.
